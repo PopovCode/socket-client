@@ -7,7 +7,7 @@ import icon from '../images/emoji.svg';
 import styles from '../styles/Chat.module.css';
 import Messages from './Messages';
 
-const socket = io.connect('http://localhost:3000');
+const socket = io.connect('https://eclectic-sprite-a4d691.netlify.app/');
 
 const Chat = () => {
 	const { search } = useLocation();
